@@ -1,0 +1,93 @@
+body {
+  background-color: #1d2640;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.suggestions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  width: 400px;
+  height: 200px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  gap: 1.5rem;
+}
+
+
+.user-card:hover {
+  transform: translateY(-8px);
+}
+
+.user-info img {
+  width: 80px;
+  height: 120px;
+}
+
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.user-info .userid {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #111;
+}
+
+.user-info .location {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #444;
+  margin-left: 0.3rem;
+}
+
+.user-info .name {
+  margin-top: 0.5rem;
+  color: #d32f2f;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+  font-size: 0.95rem;
+  color: #5a5eff;
+}
+
+.follow-btn {
+  padding: 0.4rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  background-color: #5a5eff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.follow-btn.following {
+  background-color: #d32f2f;
+}
+
+.follow-btn:hover {
+  opacity: 0.9;
+}
