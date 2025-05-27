@@ -1,0 +1,1 @@
+export const API="http://mansiv-ba.42web.io/social_api/files/"
