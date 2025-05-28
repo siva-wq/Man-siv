@@ -194,7 +194,7 @@ const Subprofile = () => {
   if (!user) return <div>Error: User not found</div>;
 
   const profilePicPath = user.profile_pic
-    ? user.profile_pic.replace("C:/Users/hp/OneDrive/Desktop/Desktop/ManSiv/my-app/public/", "")
+    ? user.profile_pic.replace("PATH", "")
     : "default.jpg";
 
   return (
@@ -265,7 +265,7 @@ const Subprofile = () => {
               <p>{post.content}</p>
               {post.image && (
                 <img
-                  src={post.image.replace("C:/Users/hp/OneDrive/Desktop/Desktop/ManSiv/my-app/public/", "")}
+                  src={post.image.replace("PATH", "")}
                   alt="Post"
                   className="post-image"
                 />
