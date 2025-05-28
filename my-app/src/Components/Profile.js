@@ -144,7 +144,7 @@ useEffect(() => {
                 <img
                 className="post-image"
                   src={post.image.replace(
-                    "C:/Users/durga/OneDrive/Desktop/Desktop/fed/React/myapp/public/",
+                    "PATH",
                     ""
                   )}
                   alt="Post"
