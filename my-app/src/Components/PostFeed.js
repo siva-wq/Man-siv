@@ -283,11 +283,11 @@ const PostFeed = () => {
             {post.image && (
               <img
                 src={post.image.replace(
-                  "C:/Users/hp/OneDrive/Desktop/Desktop/ManSiv/my-app/public/",
+                  "Path",
                   ""
                 )}
                 alt="Post"
-                onError={(e) => (e.target.src = "http://192.168.221.249:3000/default.jpg")}
+                onError={(e) => (e.target.src = "default.jpg")}
                 className="post-image"
               />
             )}
