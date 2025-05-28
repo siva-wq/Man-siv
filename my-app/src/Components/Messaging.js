@@ -156,7 +156,7 @@ const Messaging = () => {
         ...follower,
         profile_pic: follower.profile_pic
           ? follower.profile_pic.replace(
-              "C:/Users/durga/OneDrive/Desktop/Desktop/fed/React/myapp/public/",
+              "PATH",
               ""
             )
           : "default.jpg",
