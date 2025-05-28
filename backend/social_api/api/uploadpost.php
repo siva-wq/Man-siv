@@ -5,7 +5,7 @@ header("Access-Control-Allow-Headers: Content-Type, Authorization");
 
 include_once '../config/db.php';
 
-$uploadDir = "C:/Users/hp/OneDrive/Desktop/Desktop/ManSiv/my-app/public/uploads/posts/"; 
+$uploadDir = "PATH"; 
 if (!file_exists($uploadDir)) {
     mkdir($uploadDir, 0777, true); 
 }
