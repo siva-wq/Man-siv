@@ -98,10 +98,10 @@ const Home = () => {
         ...follower,
         profile_pic: follower.profile_pic
           ? follower.profile_pic.replace(
-              "C:/Users/hp/OneDrive/Desktop/Desktop/ManSiv/my-app/public/",
+              "PATH",
               ""
             )
-          : "default.jpg", // Use placeholder for missing profile_pic
+          : "default.jpg", 
       }));
 
       const initialFollows = {};
